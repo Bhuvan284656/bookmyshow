@@ -1,21 +1,19 @@
-.theater{
-    border-bottom: 2px solid silver;
-    margin: 5px;
-    width: 98%;
-    padding: 4px;
+.theater {
+  border-bottom: 2px solid silver;
+  margin: 5px;
+  width: 98%;
+  padding: 4px;
 }
-.theaterName, .theaterTimings, .seletedMovieTime{
-    display: inline-block;
-}
-
-.theaterName{
-    width: 30%;
+.theaterName,
+.theaterTimings,
+.seletedMovieTime {
+  display: inline-block;
 }
 
-.theaterTimings{
-    width: 60%;
+.theaterName {
+  width: 30%;
 }
 
-.seletedMovieTime{
-
+.theaterTimings {
+  width: 60%;
 }

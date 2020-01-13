@@ -1,18 +1,19 @@
-.selectedMovie{
-    display: table;
-    border: 1px solid silver;
-    width: 98%;
-    margin: 5px;
-    max-height: 300px;
-    margin-right: 12px;
+.selectedMovie {
+  display: table;
+  border: 1px solid silver;
+  width: 98%;
+  margin: 5px;
+  max-height: 300px;
+  margin-right: 12px;
 }
 
-.movieImage, .movieTitle{
-    display: table-cell;
-    float: left;
-    max-height: 300px;
+.movieImage,
+.movieTitle {
+  display: table-cell;
+  float: left;
+  max-height: 300px;
 }
 
-.movieTitle{
-margin-left: 5px;
+.movieTitle {
+  margin-left: 5px;
 }

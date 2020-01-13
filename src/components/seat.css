@@ -16,12 +16,12 @@
   margin: 4px 2px;
   width: 21px;
   height: 21px;
-  position : relative;
+  position: relative;
 }
 
-.SelectedSeat{
-    background-color: #2dc492;
-    color: white;
-    font-weight: bold;
-    border: 1px solid white;
+.SelectedSeat {
+  background-color: #2dc492;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
 }

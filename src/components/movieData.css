@@ -1,37 +1,38 @@
-.movieData{
-    display: table;
-    float: left;
-    border: 1px solid silver;
-    margin: 2px;
+.movieData {
+  display: table;
+  float: left;
+  border: 1px solid silver;
+  margin: 2px;
 }
 
-.movieImage{
-    padding: 4px;
-    width: 6vw;
-    height: 80px;
+.movieImage {
+  padding: 4px;
+  width: 6vw;
+  height: 80px;
 }
-.movieImage, .movieTitle{
-    display: table-cell;
-    float: left;
-}
-
-.movieTitle{
-    vertical-align: top;
+.movieImage,
+.movieTitle {
+  display: table-cell;
+  float: left;
 }
 
-.movieTitle label{
-    display: block;
-    width: 41vw;
-    margin: 0px;
-    padding: 1px;
-    font-size: 18px;
-    word-wrap: break-word;
+.movieTitle {
+  vertical-align: top;
 }
 
-.movieYear{
-    margin: 0px;
-    padding: 1px;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 15px;
+.movieTitle label {
+  display: block;
+  width: 41vw;
+  margin: 0px;
+  padding: 1px;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.movieYear {
+  margin: 0px;
+  padding: 1px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
 }

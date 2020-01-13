@@ -12,7 +12,13 @@ class Theaters extends Component {
 
   componentDidMount() {
     //Api to get Theater List using Movie ID : this.props.match.params.id
-    if (!(this.props.match && this.props.match.params && this.props.match.params.id)) {
+    if (
+      !(
+        this.props.match &&
+        this.props.match.params &&
+        this.props.match.params.id
+      )
+    ) {
       this.setState({ iserror: true, errorMessage: "Movie Not Seleted." });
       return;
     }
@@ -20,19 +26,18 @@ class Theaters extends Component {
   }
 
   render() {
-    const {theaterList, iserror, errorMessage} = this.state;
+    const { theaterList, iserror, errorMessage } = this.state;
     let list = null;
     let errorDiv = null;
     const movieID = this.props.match.params.id;
     const url = this.props.match.url;
 
-    if(theaterList && !iserror)
+    if (theaterList && !iserror)
       list = theaterList.map(data => (
         <Theater key={data.id} {...data} movieID={movieID} url={url}></Theater>
       ));
 
-    if(iserror)
-      errorDiv = <div className="errorMessage">{errorMessage}</div>
+    if (iserror) errorDiv = <div className="errorMessage">{errorMessage}</div>;
 
     return iserror ? (
       errorDiv

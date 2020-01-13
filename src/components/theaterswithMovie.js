@@ -29,7 +29,7 @@ class TheaterMovie extends Component {
     let errorDiv = null;
     if (iserror) errorDiv = <div className="errorMessage">{errorMessage}</div>;
     const defaultPath = this.props.match.path;
-    
+
     return iserror ? (
       errorDiv
     ) : (

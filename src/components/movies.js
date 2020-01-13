@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { movieList } from "../apis/ombd";
 import Movie from "./movieData";
-import "./movies.css"
+import "./movies.css";
 import { Link } from "react-router-dom";
 
 class Movies extends Component {
@@ -12,6 +12,7 @@ class Movies extends Component {
   };
 
   componentDidMount() {
+    //Get Movie List
     movieList()
       .then(({ data }) => {
         this.setState({
@@ -19,7 +20,9 @@ class Movies extends Component {
           iserror: false
         });
       })
-      .catch(() => this.setState({ error: "Failed to get Movie List." , iserror: true }));
+      .catch(() =>
+        this.setState({ error: "Failed to get Movie List.", iserror: true })
+      );
   }
 
   render() {
@@ -33,8 +36,7 @@ class Movies extends Component {
         </Link>
       ));
 
-    if(iserror)
-      list = <div className="errorMessage">{error}</div>
+    if (iserror) list = <div className="errorMessage">{error}</div>;
 
     return <div className={"moviesList"}>{list}</div>;
   }
