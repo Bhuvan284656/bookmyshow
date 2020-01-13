@@ -1,0 +1,27 @@
+.seatDetails {
+  display: inline-block;
+  font-size: 10.5px;
+  line-height: 21px;
+  font-weight: 400;
+  border: 1px solid #a7a7a7;
+  border-radius: 26%;
+  color: #666;
+  text-align: center;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.seats {
+  margin: 4px 2px;
+  width: 21px;
+  height: 21px;
+  position : relative;
+}
+
+.SelectedSeat{
+    background-color: #2dc492;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}

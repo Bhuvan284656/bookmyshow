@@ -1,0 +1,32 @@
+{
+    "theaterList": [
+        {
+            "id": "1",
+            "name":"PVR: Arena Mall",
+            "timings":["02:40 PM", "03:20 PM", "06:00 PM", "06:25 PM", "06:40 PM", "09:20 PM"],
+            "seats": 20,
+            "location":"Doddanakundi, Marthalli Ring Road"
+        },
+        {
+            "id": "2",
+            "name":"PVR: Phoenix Marketcity Mall",
+            "timings":["08:20 AM", "11:45 AM", "03:10 PM", "05:35 PM", "06:35 PM", "10:00 PM"],
+            "seats": 50,
+            "location":"Whitefield Road"
+        },
+        {
+            "id": "3",
+            "name":"Gopalan Grand Mall",
+            "timings":["08:20 AM", "11:45 AM", "03:10 PM", "05:35 PM", "06:35 PM", "10:00 PM"],
+            "seats": 50,
+            "location":"Old Madras Road"
+        },
+        {
+            "id": "4",
+            "name":"Tulsi Digital 4K A/C Dolby 7.1",
+            "timings":["08:20 AM", "11:45 AM", "03:10 PM", "05:35 PM", "06:35 PM", "10:00 PM"],
+            "seats": 50,
+            "location":"Marathalli"
+        }
+    ]
+}
