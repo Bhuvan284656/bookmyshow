@@ -9,11 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header></Header>
-
+        <Header />
         <Switch>
-          <Route path="/" exact component={Movies}></Route>
-          <Route path="/Theaters/:id" component={Theaters}></Route>
+          <Route path="/" exact component={Movies} />
+          <Route path="/Theaters/:id" component={Theaters} />
         </Switch>
       </div>
     </BrowserRouter>
